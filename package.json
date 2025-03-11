@@ -1,0 +1,51 @@
+{
+  "name": "@karinjs/plugin-webui-network-monitor",
+  "version": "0.0.1",
+  "description": "karin 的 webui 网络监控插件",
+  "homepage": "https://github.com/KarinJS/karin-plugin-webui-network-monitor",
+  "bugs": {
+    "url": "https://github.com/KarinJS/karin-plugin-webui-network-monitor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarinJS/karin-plugin-webui-network-monitor.git"
+  },
+  "author": "shijin",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "/dist/**/*.js",
+    "/dist/**/*.d.ts",
+    "config",
+    "resources",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
+    "pub": "npm publish --access public",
+    "sort": "npx sort-package-json",
+    "dev": "tsx watch src/index.ts",
+    "karin": "karin"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.8",
+    "eslint": "^9.7.0",
+    "neostandard": "^0.12.0",
+    "node-karin": "^1.5.0",
+    "tsc-alias": "^1.8.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.5.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "karin": {
+    "main": "src/index.ts"
+  },
+  "dependencies": {
+    "systeminformation": "^5.25.11"
+  }
+}
