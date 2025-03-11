@@ -5,4 +5,6 @@
 pnpm add @karinjs/plugin-webui-network-monitor -w
 ```
 
-安装后将在主页渲染网络监控卡片
+**安装后将在主页渲染网络监控卡片**
+
+![1]('./pic.png')
