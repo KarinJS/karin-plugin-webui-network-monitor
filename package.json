@@ -1,6 +1,6 @@
 {
   "name": "@karinjs/plugin-webui-network-monitor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "karin 的 webui 网络监控插件",
   "homepage": "https://github.com/KarinJS/karin-plugin-webui-network-monitor",
   "bugs": {
