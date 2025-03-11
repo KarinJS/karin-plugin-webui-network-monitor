@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/KarinJS/karin-plugin-webui-network-monitor/compare/v1.0.2...v1.0.3) (2025-03-11)
+
+
+### Bug Fixes
+
+* path ([5bf6911](https://github.com/KarinJS/karin-plugin-webui-network-monitor/commit/5bf6911a7a8723efa7ece6a07038f5783cfe3e53))
+
 ## [1.0.2](https://github.com/KarinJS/karin-plugin-webui-network-monitor/compare/v1.0.1...v1.0.2) (2025-03-11)
 
 
